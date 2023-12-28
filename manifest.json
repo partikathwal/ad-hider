@@ -1,0 +1,16 @@
+{
+    "name": "Ad Hider",
+    "version": "1.1",
+    "description": "Hides some ads.",
+    "manifest_version": 3,
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "64": "images/icon64.png",
+        "128": "images/icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://mail.yahoo.com/*", "https://www.truepeoplesearch.com/*"],
+        "js": ["code.js"]
+    }]
+}
