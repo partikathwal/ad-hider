@@ -34,7 +34,6 @@ if(location.href.includes("yahoo")){
 
 
 // TRUEPEOPLE SEARCH
-alert(location.href);
 if(location.href.includes("truepeople")){
     try {
         [...document.querySelectorAll(".content-center")].forEach(el => {
